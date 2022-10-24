@@ -1,1 +1,76 @@
-hi
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MultiCopy</title>
+
+<link rel="stylesheet" href="MDL/material.min.css">
+<script src="MDL/material.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<!-- header -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer
+            mdl-layout--fixed-header">
+  <!-- <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <span class="mdl-layout-title" id='page_title'>MultiCopy</span>
+      <div class="mdl-layout-spacer"></div>
+
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+                  mdl-textfield--floating-label mdl-textfield--align-right" id='search'>
+        <label class="mdl-button mdl-js-button mdl-button--icon"
+               for="fixed-header-drawer-exp">
+          <i class="material-icons">search</i>
+        </label>
+        <div class="mdl-textfield__expandable-holder">
+          <input class="mdl-textfield__input" type="text" name="sample"
+                 id="fixed-header-drawer-exp">
+        </div>
+      </div>
+    </div>
+
+  </header> -->
+<h6 id='header'><img src='assets/icon_128_mc.png' style='width:25px;'> &nbsp  MultiCopy Clipboard
+  <i class='material-icons' id='money' href='https://chrome.google.com/id/'>attach_money</i> <div class="mdl-tooltip" data-mdl-for="money">
+  Donate
+  </div>
+  <i class='material-icons' id='feedback' href='https://chrome.google.com/id/'>feedback</i> <div class="mdl-tooltip" data-mdl-for="feedback">
+Feedback
+</div></h6>
+  <main class="mdl-layout__content">
+
+    <!-- <form action="#"> -->
+  <!-- <div id='add' class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+    <input class="mdl-textfield__input" type="text" id='copy'>
+    <label class="mdl-textfield__label" for="copy">Copy</label> -->
+    <div id='copyDiv'><center>
+    <input type='text' id='copy' placeholder="Add Copy" />
+
+  <i class="material-icons" id='addbutton'>add</i>
+</center>
+</div>
+  <!-- </div> -->
+<!-- </form> -->
+
+
+<ul class="demo-list-control mdl-list" id='list'>
+  <hr>
+
+</ul>
+<div id="demo-snackbar-example" class="mdl-js-snackbar mdl-snackbar">
+  <div class="mdl-snackbar__text"></div>
+  <button class="mdl-snackbar__action" type="button"></button>
+</div>
+<input type='text' id='copier'>
+  </main>
+</div>
+
+
+
+
+<script src="jquery-3.2.0.min.js"></script>
+
+  <script src="main.js"></script>
+</body>
+</html>

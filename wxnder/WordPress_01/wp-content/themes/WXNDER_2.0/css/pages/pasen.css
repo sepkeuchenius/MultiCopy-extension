@@ -1,0 +1,21 @@
+.personen{
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.personen-counter{
+
+}
+.counter_button-personen{
+  border:none;
+}
+.sws-product{
+  text-align: left;
+  width: 300px;
+}
+.sws-product-count{
+  float:right;
+}
+#pictos-2{
+  margin-bottom:50px;
+}

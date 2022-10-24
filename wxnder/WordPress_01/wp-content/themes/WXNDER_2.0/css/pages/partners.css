@@ -1,0 +1,56 @@
+.partner{
+  width: 270px;
+  height: 180px;
+  border-radius: 20px;
+  position: relative;
+  box-sizing: border-box;
+  background: 50% 80%/cover no-repeat;
+  display: inline-block;
+  margin:10px;
+}
+.partner-pic{
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: -1;
+  opacity: 0.5;
+  width: 100%;
+}
+.partner-title{
+  color:black;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: 'Muli';
+  position: absolute;
+  top:10px;
+  width: 100%;
+  text-align: center;
+  left:0;
+  font-weight: 900;
+  /* background: rgb(100,100,100, 0.5); */
+  margin:0;
+  border-radius: 30px 30px 0 0;
+}
+#partners{
+  padding: 50px max(30px, calc(50% - 500px));
+  width: 1000px;
+  text-align: center;
+  background: white;
+  margin-top:50px;
+}
+@media only screen and (max-width:900px) {
+  .partner{
+    width: calc(50% - 10px);
+    margin: 5px 2px;
+    height: 150px;
+  }
+  .partner-title{
+    font-size: 17px;
+  }
+  #partners{
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 30px 10px;
+  }
+
+}

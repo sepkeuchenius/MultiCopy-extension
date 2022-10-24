@@ -1,0 +1,38 @@
+#ons-tabel td{
+  max-width: 25%;
+  height: auto;
+  width: 25%;
+  color: black;
+  font-size: 20px;
+  margin:0 5px;
+
+ }
+ #ons-tabel{
+  max-width: min(80%, 800px);
+  margin-left:max(10%, calc(50% - 400px));
+  margin-bottom:50px;
+  margin-top:50px;
+}
+.ons-foto img{
+  width:90%;
+  border-radius:50%;
+  border:3px solid white;
+}
+#ons-tabel-wrap{
+  background: white;
+  padding: 40px 0;
+  margin: 200px 0 0;
+}
+.kleiner{
+  font-size:0.8em !important;
+}
+@media only screen and (max-width:900px) {
+  #ons-tabel-wrap{
+    padding:10px 0;
+    margin-bottom:60px;
+    margin-top:50px;
+  }
+  #ons-tabel td{
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,92 @@
+@media only screen and (max-width:900px) {
+  #page-landing{
+    height: 50vh;
+  }
+.header_title{
+  font-size: 45px;
+  max-width: 90%;
+}
+.content_section_hor , .content_section_hor--green{
+  padding:0 20px;
+  /* background: mistyrose; */
+  box-sizing: border-box;
+  text-align: center;
+}
+.hor_section{
+  width: 100%;
+  margin: 15px 0;
+}
+.hor_section_img{
+  height:200px;
+  filter: invert(1);
+}
+
+
+.whitebutton{
+  width:110px;
+  font-size: 12px;
+  height: 30px;
+  padding-top:6px;
+}
+
+.buttonicon{
+  margin-left:-0px;
+  margin-right: 0px;
+  width:16px;
+}
+#dmimage{
+  margin-right:
+}
+.inner{
+  width: 100%;
+  box-sizing: border-box;
+  padding:30px 30px;
+}
+p{
+  /* max-width: 80vw; */
+  /* padding: 0 10vw; */
+}
+.profile_pic{
+  width: 150px;
+  height: auto;
+}
+.kleiner{
+  font-size: 80%;
+}
+.whitebutton{
+
+}
+#arrow_down{
+  display: none;
+}
+#subtitle{
+  top: calc(65px + 19vw);
+  font-size: 30px;
+  left: 29px;
+  text-align: left;
+
+}
+#subtitle .tag{
+  margin:0 10px;
+  font-size:11px;
+  border-width: 2px;
+}
+.footer_col{
+  font-size:10px;
+  box-sizing: border-box;
+  width: 30%;
+  /* margin-left: 5%; */
+}
+#footer{
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-left:7%;
+}
+  #background-mobiel{
+    display: block;
+  }
+  .green-header{
+    font-size:28px;
+    margin: 5px 0;
+  }
+}
